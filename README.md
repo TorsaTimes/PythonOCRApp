@@ -34,7 +34,7 @@ pdf2image - Python library for converting PDFs to images
 pytesseract - Python wrapper for Tesseract OCR engine
 
 ## Project Structure 
-```
+```bash
 Project-Name
 │   README.md
 │   LICENSE
