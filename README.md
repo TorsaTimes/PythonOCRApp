@@ -32,3 +32,34 @@ Tesseract OCR - Optical Character Recognition engine
 OpenCV - Computer vision library for Python
 pdf2image - Python library for converting PDFs to images
 pytesseract - Python wrapper for Tesseract OCR engine
+
+## Project Structure 
+```
+Project-Name
+│   README.md
+│   LICENSE
+│   .gitignore
+│   pom.xml
+│
+└───src
+    ├───de
+    │   ├───java
+    │   │   └───com
+    │   │       └───example
+    │   │           ├───config
+    │   │           ├───controller
+    │   │           ├───model
+    │   │           ├───repository
+    │   │           └───service
+    │   └───resources
+    │       ├───static
+    │       └───templates
+    └───test
+        └───java
+            └───com
+                └───example
+                    ├───controller
+                    ├───model
+                    ├───repository
+                    └───service
+```
